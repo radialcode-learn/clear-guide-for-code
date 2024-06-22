@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Counter from "./Counter";
+import UseStateWithArray from "./UseStateWithArray";
+import UseStateWithArrayOfObject from "./UseStateWithArrayOfObject";
+import UseStateWithString from "./UseStateWithString";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Component demonstrating the use of useState with a string */}
+      <UseStateWithString />
+      
+      {/* Component demonstrating the use of useState with a simple array */}
+      <UseStateWithArray />
+      
+      {/* Component demonstrating the use of useState with an array of objects */}
+      <UseStateWithArrayOfObject />
+      
+      {/* Component demonstrating a simple counter using useState */}
+      <Counter/>
+    </>
   );
 }
 
