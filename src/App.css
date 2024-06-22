@@ -1,0 +1,46 @@
+:root {
+  /*======================= FONT SIZES ==========================*/
+  --fs-xs: 14px;
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-lg: 20px;
+  --fs-xl: 24px;
+  --fs-2xl: 30px;
+  --fs-3xl: 36px;
+  /*======================= COLORS ==========================*/
+  --dark-red: "#94151D";
+  --grey: "#DFDEDE";
+  --pink: "#F07CBD";
+  /*======================= GRADIENTS ==========================*/
+  --gradient-pink: "linear-gradient(210.51deg, #F07CBD 21.82%, #8753A4 72.5%)";
+  --gradient-purple: "radial-gradient(at 115% 40%, hsla(298,100%,68%,1) 0px, transparent 50%),";
+}
+
+/* UTILITIES CLASSES */
+.text_xs {
+  font-size: var(--fs-xs);
+}
+.text_sm {
+  font-size: var(--fs-sm);
+}
+.text_md {
+  font-size: var(--fs-md);
+}
+.text_lg {
+  font-size: var(--fs-lg);
+}
+.text_dark_red {
+  color: var(--dark-red);
+}
+.text_grey {
+  color: var(--grey);
+}
+.bg_pink {
+  background-color: var(--pink);
+}
+.bg_grey {
+  background-color: var(--grey);
+}
+.bg_pink_gradient {
+  background: var(--gradient-pink);
+}
