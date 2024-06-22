@@ -5,7 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 
 function App() {
-  return <Button>HELLO</Button>;
+  return (
+    <div className="d-flex flex-col justify-content-center align-items-center vh-100">
+      <Button>HELLO</Button>
+    </div>
+  );
 }
 
 export default App;
