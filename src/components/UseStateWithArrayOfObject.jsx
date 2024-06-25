@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+// TODO: only use useState if you can write logic for both the variables assignment. In this case, a
+// prop with navList data would be a better approach. @neharadialcode486
 const UseStateWithArrayOfObject = () => {
   const [navList, setNavList] = useState([
     {
