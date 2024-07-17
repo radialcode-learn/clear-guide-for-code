@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const UseStateWithArray = () => {
-  const socialList = [
+  const SOCIAL_LIST = [
     "linkedIn",
     "instagram",
     "facebook",
@@ -21,7 +21,7 @@ const UseStateWithArray = () => {
   return (
     <>
       <h2>Showing the list of the array through the map</h2>
-      {socialList.map((item, i) => {
+      {SOCIAL_LIST.map((item, i) => {
         return <p key={i}>{item}</p>;
       })}
 

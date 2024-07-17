@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const UseStateWithArrayOfObject = () => {
 
-  const navList = [
+  const NAV_LIST = [
     {
       title: "Home",
     },
@@ -32,7 +32,7 @@ const UseStateWithArrayOfObject = () => {
   return (
     <>
       <h2>Showing the value of the array of the objects through the array</h2>
-      {navList.map((item, i) => {
+      {NAV_LIST.map((item, i) => {
         return <p key={i}>{item.title}</p>;
       })}
 
