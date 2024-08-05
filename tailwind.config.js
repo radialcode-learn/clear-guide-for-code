@@ -25,6 +25,7 @@ module.exports = {
       boxShadow: {
         "solution-card":
           "0 1px 1.75px -2px rgba(22, 22, 23, 0.12),0 2px 2.5px -2px rgba(22, 22, 23, 0.12),0 4px 6px -2px rgba(22, 22, 23, 0.12), 0 0 2px 0 rgba(22, 22, 23, 0.25)",
+          "faq-card":"6px 6px 0px 0px #000"
       },
       animation: {
         "back-to-top": "up-down 1s ease-out infinite alternate-reverse",
