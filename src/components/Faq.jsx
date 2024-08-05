@@ -12,7 +12,7 @@ const Faq = () => {
     };
 
     return (
-        <div>
+        <div className='py-6'>
             <h2 className='text-3xl text-center my-6 font-bold'>FAQ</h2>
             <div className='max-w-[600px] mx-auto'>
                 {FAQ_LIST.map((obj, index) => (
