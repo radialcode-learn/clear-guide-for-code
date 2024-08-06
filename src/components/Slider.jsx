@@ -2,7 +2,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { FEATURED_CARD_DATA } from '../utils/Helper';
+import { FEATURED_CARD_DATA } from '../utils/helper';
 
 const Slider = () => {
     return (
@@ -12,7 +12,7 @@ const Slider = () => {
                 slidesPerView="auto"
                 loop={true}
                 pagination={{ clickable: true }}
-          
+
             >
                 {FEATURED_CARD_DATA.map((obj, index) => (
                     <SwiperSlide key={index} className='!h-[312px] !w-[364px] me-5'>

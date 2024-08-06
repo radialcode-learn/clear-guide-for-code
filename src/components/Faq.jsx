@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from "react";
 import { DownArrow } from './common/Icons';
-import { FAQ_LIST } from '../utils/Helper';
+import { FAQ_LIST } from '../utils/helper';
 
 const Faq = () => {
     const [expandedIndex, setExpandedIndex] = useState(null);
